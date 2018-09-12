@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilshat/operating_systems_week4/exercise_4.c
+sys/types.h
+-
+unistd.h
+-
+stdio.h
+-
+memory.h
+-
+stdlib.h
+-
+wait.h
+-
+
